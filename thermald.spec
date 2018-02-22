@@ -28,7 +28,6 @@ BuildRequires:	glib-devel
 BuildRequires:	libxml2-devel
 BuildRequires:	pkgconfig(libsystemd)
 
-Requires(pre):	glibc-common
 Requires(pre):	shadow-utils
 
 %description
