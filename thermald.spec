@@ -14,7 +14,7 @@ Summary:	Thermal Management daemon
 
 License:	GPLv2+
 URL:		https://github.com/01org/%{pkgname}
-Source0:	%{url}/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
+Source0:	%{url}/archive/v%{version}.tar.gz#/%{pkgname}-%{version}.tar.gz
 
 # No cpuid.h on other arches.
 ExclusiveArch:	%{ix86} %{x86_64}
