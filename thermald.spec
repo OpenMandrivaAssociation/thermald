@@ -8,7 +8,7 @@
 
 
 Name:		thermald
-Version:	1.7.1
+Version:	1.7.2
 Release:	1
 Summary:	Thermal Management daemon
 
@@ -17,7 +17,7 @@ URL:		https://github.com/01org/%{pkgname}
 Source0:	%{url}/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
 # No cpuid.h on other arches.
-ExclusiveArch:	%{ix86} x86_64
+ExclusiveArch:	%{ix86} %{x86_64}
 
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -27,8 +27,7 @@ BuildRequires:	gcc-c++
 BuildRequires:	glib-devel
 BuildRequires:	libxml2-devel
 BuildRequires:	pkgconfig(libsystemd)
-
-Requires(pre):	shadow-utils
+Requires(pre):	shadow
 
 %description
 %{name} monitors and controls platform temperature.
