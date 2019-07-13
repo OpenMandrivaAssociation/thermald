@@ -8,8 +8,8 @@
 
 
 Name:		thermald
-Version:	1.7.2
-Release:	2
+Version:	1.8
+Release:	1
 Summary:	Thermal Management daemon
 
 License:	GPLv2+
