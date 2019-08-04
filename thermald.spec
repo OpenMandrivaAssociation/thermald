@@ -8,7 +8,7 @@
 
 
 Name:		thermald
-Version:	1.8
+Version:	1.9
 Release:	1
 Summary:	Thermal Management daemon
 
