@@ -9,7 +9,7 @@
 
 Name:		thermald
 Version:	1.9.1
-Release:	1
+Release:	2
 Summary:	Thermal Management daemon
 
 License:	GPLv2+
