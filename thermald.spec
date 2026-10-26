@@ -21,6 +21,7 @@ ExclusiveArch:	%{ix86} %{x86_64}
 
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	make
 BuildRequires:	dbus-glib-devel
 BuildRequires:	desktop-file-utils
 BuildRequires:	gcc-c++
